@@ -1,0 +1,13 @@
+@import "../../style/common.scss";
+
+.list{
+	font-size:12px;
+	color:$commonColor;
+	> .li{
+		display: inline-block;
+	}
+	> image{
+		@include size(60rpx,60rpx)
+		border-radius: 50%;
+	}
+}

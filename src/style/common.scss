@@ -1,0 +1,10 @@
+$commonColor: #cecece;
+
+@mixin size($num1,$num2:100){
+	width:$num1;
+	@if ($num2 == 100) {
+		height: $num1;
+	}@else {
+		height: $num2;
+	}
+}
