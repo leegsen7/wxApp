@@ -1,12 +1,37 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/salesOpp/salesOpp",
+        "pages/user/user",
+        "pages/cs/cs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/salesOpp/salesOpp",
+                "text": "销售机会",
+                "iconPath": "./image/wechat.png",
+                "selectedIconPath": "./image/wechatHL.png"
+            },
+            {
+                "pagePath": "pages/cs/cs",
+                "text": "客服",
+                "iconPath": "./image/wechat.png",
+                "selectedIconPath": "./image/wechatHL.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "./image/wechat.png",
+                "selectedIconPath": "./image/wechatHL.png"
+            }
+        ],
+        "color": "",
+        "selectedColor": "#08BC01"
+    }
 }

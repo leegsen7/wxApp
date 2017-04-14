@@ -1,9 +1,0 @@
-.list {
-  font-size: 12px;
-  color: #cecece; }
-  .list > .li {
-    display: inline-block; }
-  .list > image {
-    width: 60rpx;
-    height: 60rpx;
-    border-radius: 50%; }

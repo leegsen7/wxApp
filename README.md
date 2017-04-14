@@ -1,2 +1,2 @@
-# wxapp
-wxapp template
+# wxAppCli
+### 自己弄得一个简单脚手架，准备继续完善

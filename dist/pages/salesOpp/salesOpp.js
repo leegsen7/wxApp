@@ -1,0 +1,3 @@
+let app = getApp();
+
+Page({})
